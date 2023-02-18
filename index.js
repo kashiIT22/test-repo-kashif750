@@ -2,4 +2,8 @@ const test = (string) => {
 	return string === "test";
 };
 
-module.exports = test;
+const test2 = (number) => {
+	return number === 123;
+};
+
+module.exports = { test, test2 };
